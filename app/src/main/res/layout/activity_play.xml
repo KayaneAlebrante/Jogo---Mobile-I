@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity"
+    android:background="@color/fundo">
+
+    <LinearLayout
+        android:id="@+id/explicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/text_explicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/escolha_sua_jogada_n1_pedra_n2_papel_n3_tesoura" />
+
+
+        <EditText
+            android:id="@+id/edit_escolha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/digite_1_2_ou_3"
+            android:inputType="number"
+            android:maxLength="1"
+            android:ems="5"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:id="@+id/button_enviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/_jogar"
+            android:backgroundTint="@color/azulClaro"/>
+
+        <TextView
+            android:id="@+id/text_resultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:text="@string/o_resultado_ser_mostrado_aqui"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/explicacao"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/icon_escolha_usuario"
+            android:layout_width="147dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/escolha_do_usu_rio"
+            android:src="@drawable/ic_default" />
+
+        <ImageView
+            android:id="@+id/icon_escolha_app"
+            android:layout_width="147dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/escolha_do_app"
+            android:src="@drawable/ic_default" />
+    </LinearLayout>
+</RelativeLayout>

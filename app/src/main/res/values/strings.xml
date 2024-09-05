@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">jogo</string>
+    <string name="voc_j_jogou_pedra_papel_e_tesoura">Você já Jogou pedra papel e tesoura?</string>
+    <string name="o_jogo_pedra_papel_e_tesoura_uma_brincadeira_simples_e_popular_jogada_entre_duas_pessoas">O jogo Pedra, Papel e Tesoura é uma brincadeira simples e popular, jogada entre duas pessoas.</string>
+    <string name="a_vit_ria_determinada_pelas_regras_pedra_vence_tesoura_tesoura_vence_papel_e_papel_vence_pedra">A vitória é determinada pelas regras: Pedra vence Tesoura, Tesoura vence Papel, e Papel vence Pedra.</string>
+    <string name="jogar">Jogar</string>
+    <string name="o_resultado_ser_mostrado_aqui">O resultado será mostrado aqui</string>
+    <string name="escolha_do_usu_rio">Escolha do usuário</string>
+    <string name="escolha_do_app">Escolha do app</string>
+    <string name="digite_1_2_ou_3">Digite 1, 2 ou 3</string>
+    <string name="escolha_sua_jogada_n1_pedra_n2_papel_n3_tesoura">Escolha sua jogada:\n1 - Pedra\n2 - Papel\n3 - Tesoura</string>
+    <string name="_jogar">Jogar</string>
+</resources>
