@@ -11,8 +11,8 @@ Bem-vindo ao repositório do **Jogo Pedra, Papel e Tesoura**! Este é um projeto
 ---
 
 ## Desenvolvedor
-- Nome do aluno: *Kayane Alebrante*
+- Nome do aluna: *Kayane Alebrante*
 - Curso: Tecnólogo em Desenvolvimento de Sistemas
-- Professor orientador: **Dr. Robyson Aggio**
+- Professor: **Dr. Robyson Aggio**
 
 **Divirta-se jogando Pedra, Papel e Tesoura!**
